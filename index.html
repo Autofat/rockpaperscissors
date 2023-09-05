@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Rock Paper Scissors Game</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <header>
+    <h1>Rock Paper Scissors</h1>
+  </header>
+
+  <div class="score-board">
+    <div id="user-label" class="badge">User</div>
+    <div id="computer-label" class="badge">Comp</div>
+    <span id="user-score">0</span>:<span id="computer-score">0</span>
+  </div>
+
+  <div class="result">
+    <p>START</p>
+  </div>
+
+  <!-- CHOICES -->
+  <div class="choices">
+    <div class="choice" id="rock">
+      <i class="fa-regular fa-hand-back-fist"></i>
+    </div>
+
+    <div class="choice" id="paper">
+      <i class="fa-regular fa-hand"></i>
+    </div>
+
+    <div class="choice" id="scissors">
+      <i class="fa-regular fa-hand-peace"></i>
+    </div>
+  </div>
+  <!-- //CHOICES -->
+
+  <!-- Action Massages -->
+  <p id="action-message">Make your move</p>
+  <!-- //Action Massages -->
+
+  <script src="script.js"></script>
+  <!--
+This script places a badge on your repl's full-browser view back to your repl's cover page. Try various colors for the theme: dark, light, red, orange, yellow, lime, green, teal, blue, blurple, magenta, pink
+!-->
+
+</body>
+
+</html>
